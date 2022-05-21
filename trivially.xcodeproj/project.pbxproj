@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1286C38094C01073B7AD7D29 /* Pods_triviallyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0BFD8FDC46DF21C3DE2A3 /* Pods_triviallyTests.framework */; };
+		1518DDB089B53DDF0E9B8018 /* Pods_trivially.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2B7AAFBB5D609C9B6B1F78 /* Pods_trivially.framework */; };
+		1566D468282FE1B5000EC6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D467282FE1B5000EC6B4 /* AppDelegate.swift */; };
+		1566D46A282FE1B5000EC6B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D469282FE1B5000EC6B4 /* SceneDelegate.swift */; };
+		1566D46C282FE1B5000EC6B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D46B282FE1B5000EC6B4 /* HomeViewController.swift */; };
+		1566D46F282FE1B5000EC6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566D46D282FE1B5000EC6B4 /* Main.storyboard */; };
+		1566D471282FE1B7000EC6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566D470282FE1B7000EC6B4 /* Assets.xcassets */; };
+		1566D474282FE1B7000EC6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566D472282FE1B7000EC6B4 /* LaunchScreen.storyboard */; };
+		1566D47F282FE1B8000EC6B4 /* triviallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D47E282FE1B8000EC6B4 /* triviallyTests.swift */; };
+		1566D489282FE1B8000EC6B4 /* triviallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D488282FE1B8000EC6B4 /* triviallyUITests.swift */; };
+		1566D48B282FE1B8000EC6B4 /* triviallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D48A282FE1B8000EC6B4 /* triviallyUITestsLaunchTests.swift */; };
+		1566D498282FE452000EC6B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D497282FE452000EC6B4 /* GameViewController.swift */; };
+		156872522833812300D49783 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156872512833812300D49783 /* Question.swift */; };
+		7D582F63D7F97DDF5C841845 /* Pods_trivially_triviallyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494841B4A32A7DC24EEE0D6B /* Pods_trivially_triviallyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1566D47B282FE1B8000EC6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1566D45C282FE1B5000EC6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1566D463282FE1B5000EC6B4;
+			remoteInfo = trivially;
+		};
+		1566D485282FE1B8000EC6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1566D45C282FE1B5000EC6B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1566D463282FE1B5000EC6B4;
+			remoteInfo = trivially;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0569CF74D31D9E9DC5756DB0 /* Pods-trivially-triviallyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trivially-triviallyUITests.release.xcconfig"; path = "Target Support Files/Pods-trivially-triviallyUITests/Pods-trivially-triviallyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E2B7AAFBB5D609C9B6B1F78 /* Pods_trivially.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trivially.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566D464282FE1B5000EC6B4 /* trivially.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trivially.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566D467282FE1B5000EC6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1566D469282FE1B5000EC6B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1566D46B282FE1B5000EC6B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1566D46E282FE1B5000EC6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1566D470282FE1B7000EC6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1566D473282FE1B7000EC6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1566D475282FE1B7000EC6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1566D47A282FE1B8000EC6B4 /* triviallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triviallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566D47E282FE1B8000EC6B4 /* triviallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triviallyTests.swift; sourceTree = "<group>"; };
+		1566D484282FE1B8000EC6B4 /* triviallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triviallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1566D488282FE1B8000EC6B4 /* triviallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triviallyUITests.swift; sourceTree = "<group>"; };
+		1566D48A282FE1B8000EC6B4 /* triviallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triviallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1566D497282FE452000EC6B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		156872512833812300D49783 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1DFCBBB1859ED7C6DDF5C14C /* Pods-trivially.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trivially.release.xcconfig"; path = "Target Support Files/Pods-trivially/Pods-trivially.release.xcconfig"; sourceTree = "<group>"; };
+		494841B4A32A7DC24EEE0D6B /* Pods_trivially_triviallyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trivially_triviallyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809B59E5E34BADB6D2F0761E /* Pods-triviallyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-triviallyTests.debug.xcconfig"; path = "Target Support Files/Pods-triviallyTests/Pods-triviallyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DC47F28D30702229157333 /* Pods-trivially.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trivially.debug.xcconfig"; path = "Target Support Files/Pods-trivially/Pods-trivially.debug.xcconfig"; sourceTree = "<group>"; };
+		AC19EA176AE3A17D992953D4 /* Pods-trivially-triviallyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trivially-triviallyUITests.debug.xcconfig"; path = "Target Support Files/Pods-trivially-triviallyUITests/Pods-trivially-triviallyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B944483DC8FB4A8DE720DE /* Pods-triviallyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-triviallyTests.release.xcconfig"; path = "Target Support Files/Pods-triviallyTests/Pods-triviallyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3E0BFD8FDC46DF21C3DE2A3 /* Pods_triviallyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_triviallyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1566D461282FE1B5000EC6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518DDB089B53DDF0E9B8018 /* Pods_trivially.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566D477282FE1B8000EC6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286C38094C01073B7AD7D29 /* Pods_triviallyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566D481282FE1B8000EC6B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D582F63D7F97DDF5C841845 /* Pods_trivially_triviallyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1566D45B282FE1B5000EC6B4 = {
+			isa = PBXGroup;
+			children = (
+				1566D466282FE1B5000EC6B4 /* trivially */,
+				1566D47D282FE1B8000EC6B4 /* triviallyTests */,
+				1566D487282FE1B8000EC6B4 /* triviallyUITests */,
+				1566D465282FE1B5000EC6B4 /* Products */,
+				A2EC8A0DEBEBE8674623F117 /* Pods */,
+				34EA924C7F786D79917FC432 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1566D465282FE1B5000EC6B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1566D464282FE1B5000EC6B4 /* trivially.app */,
+				1566D47A282FE1B8000EC6B4 /* triviallyTests.xctest */,
+				1566D484282FE1B8000EC6B4 /* triviallyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1566D466282FE1B5000EC6B4 /* trivially */ = {
+			isa = PBXGroup;
+			children = (
+				1566D467282FE1B5000EC6B4 /* AppDelegate.swift */,
+				1566D469282FE1B5000EC6B4 /* SceneDelegate.swift */,
+				1566D46B282FE1B5000EC6B4 /* HomeViewController.swift */,
+				1566D497282FE452000EC6B4 /* GameViewController.swift */,
+				156872512833812300D49783 /* Question.swift */,
+				1566D46D282FE1B5000EC6B4 /* Main.storyboard */,
+				1566D470282FE1B7000EC6B4 /* Assets.xcassets */,
+				1566D472282FE1B7000EC6B4 /* LaunchScreen.storyboard */,
+				1566D475282FE1B7000EC6B4 /* Info.plist */,
+			);
+			path = trivially;
+			sourceTree = "<group>";
+		};
+		1566D47D282FE1B8000EC6B4 /* triviallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1566D47E282FE1B8000EC6B4 /* triviallyTests.swift */,
+			);
+			path = triviallyTests;
+			sourceTree = "<group>";
+		};
+		1566D487282FE1B8000EC6B4 /* triviallyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1566D488282FE1B8000EC6B4 /* triviallyUITests.swift */,
+				1566D48A282FE1B8000EC6B4 /* triviallyUITestsLaunchTests.swift */,
+			);
+			path = triviallyUITests;
+			sourceTree = "<group>";
+		};
+		34EA924C7F786D79917FC432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2B7AAFBB5D609C9B6B1F78 /* Pods_trivially.framework */,
+				494841B4A32A7DC24EEE0D6B /* Pods_trivially_triviallyUITests.framework */,
+				E3E0BFD8FDC46DF21C3DE2A3 /* Pods_triviallyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2EC8A0DEBEBE8674623F117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4DC47F28D30702229157333 /* Pods-trivially.debug.xcconfig */,
+				1DFCBBB1859ED7C6DDF5C14C /* Pods-trivially.release.xcconfig */,
+				AC19EA176AE3A17D992953D4 /* Pods-trivially-triviallyUITests.debug.xcconfig */,
+				0569CF74D31D9E9DC5756DB0 /* Pods-trivially-triviallyUITests.release.xcconfig */,
+				809B59E5E34BADB6D2F0761E /* Pods-triviallyTests.debug.xcconfig */,
+				D8B944483DC8FB4A8DE720DE /* Pods-triviallyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1566D463282FE1B5000EC6B4 /* trivially */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566D48E282FE1B8000EC6B4 /* Build configuration list for PBXNativeTarget "trivially" */;
+			buildPhases = (
+				1B189E4C17495BCEC7ED47E3 /* [CP] Check Pods Manifest.lock */,
+				1566D460282FE1B5000EC6B4 /* Sources */,
+				1566D461282FE1B5000EC6B4 /* Frameworks */,
+				1566D462282FE1B5000EC6B4 /* Resources */,
+				D495A34B5CA76FAD3BEBC192 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trivially;
+			productName = trivially;
+			productReference = 1566D464282FE1B5000EC6B4 /* trivially.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1566D479282FE1B8000EC6B4 /* triviallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566D491282FE1B8000EC6B4 /* Build configuration list for PBXNativeTarget "triviallyTests" */;
+			buildPhases = (
+				F75C91D2676AC3A2057F18C5 /* [CP] Check Pods Manifest.lock */,
+				1566D476282FE1B8000EC6B4 /* Sources */,
+				1566D477282FE1B8000EC6B4 /* Frameworks */,
+				1566D478282FE1B8000EC6B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1566D47C282FE1B8000EC6B4 /* PBXTargetDependency */,
+			);
+			name = triviallyTests;
+			productName = triviallyTests;
+			productReference = 1566D47A282FE1B8000EC6B4 /* triviallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1566D483282FE1B8000EC6B4 /* triviallyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566D494282FE1B8000EC6B4 /* Build configuration list for PBXNativeTarget "triviallyUITests" */;
+			buildPhases = (
+				C9A1163F19939B771972354D /* [CP] Check Pods Manifest.lock */,
+				1566D480282FE1B8000EC6B4 /* Sources */,
+				1566D481282FE1B8000EC6B4 /* Frameworks */,
+				1566D482282FE1B8000EC6B4 /* Resources */,
+				7722EF557F1FF5C74270B7DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1566D486282FE1B8000EC6B4 /* PBXTargetDependency */,
+			);
+			name = triviallyUITests;
+			productName = triviallyUITests;
+			productReference = 1566D484282FE1B8000EC6B4 /* triviallyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1566D45C282FE1B5000EC6B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1566D463282FE1B5000EC6B4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					1566D479282FE1B8000EC6B4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 1566D463282FE1B5000EC6B4;
+					};
+					1566D483282FE1B8000EC6B4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 1566D463282FE1B5000EC6B4;
+					};
+				};
+			};
+			buildConfigurationList = 1566D45F282FE1B5000EC6B4 /* Build configuration list for PBXProject "trivially" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1566D45B282FE1B5000EC6B4;
+			productRefGroup = 1566D465282FE1B5000EC6B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1566D463282FE1B5000EC6B4 /* trivially */,
+				1566D479282FE1B8000EC6B4 /* triviallyTests */,
+				1566D483282FE1B8000EC6B4 /* triviallyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1566D462282FE1B5000EC6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566D474282FE1B7000EC6B4 /* LaunchScreen.storyboard in Resources */,
+				1566D471282FE1B7000EC6B4 /* Assets.xcassets in Resources */,
+				1566D46F282FE1B5000EC6B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566D478282FE1B8000EC6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566D482282FE1B8000EC6B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B189E4C17495BCEC7ED47E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trivially-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7722EF557F1FF5C74270B7DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trivially-triviallyUITests/Pods-trivially-triviallyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trivially-triviallyUITests/Pods-trivially-triviallyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trivially-triviallyUITests/Pods-trivially-triviallyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A1163F19939B771972354D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trivially-triviallyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D495A34B5CA76FAD3BEBC192 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trivially/Pods-trivially-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trivially/Pods-trivially-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trivially/Pods-trivially-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75C91D2676AC3A2057F18C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-triviallyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1566D460282FE1B5000EC6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156872522833812300D49783 /* Question.swift in Sources */,
+				1566D498282FE452000EC6B4 /* GameViewController.swift in Sources */,
+				1566D46C282FE1B5000EC6B4 /* HomeViewController.swift in Sources */,
+				1566D468282FE1B5000EC6B4 /* AppDelegate.swift in Sources */,
+				1566D46A282FE1B5000EC6B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566D476282FE1B8000EC6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566D47F282FE1B8000EC6B4 /* triviallyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1566D480282FE1B8000EC6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566D489282FE1B8000EC6B4 /* triviallyUITests.swift in Sources */,
+				1566D48B282FE1B8000EC6B4 /* triviallyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1566D47C282FE1B8000EC6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1566D463282FE1B5000EC6B4 /* trivially */;
+			targetProxy = 1566D47B282FE1B8000EC6B4 /* PBXContainerItemProxy */;
+		};
+		1566D486282FE1B8000EC6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1566D463282FE1B5000EC6B4 /* trivially */;
+			targetProxy = 1566D485282FE1B8000EC6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1566D46D282FE1B5000EC6B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1566D46E282FE1B5000EC6B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1566D472282FE1B7000EC6B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1566D473282FE1B7000EC6B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1566D48C282FE1B8000EC6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1566D48D282FE1B8000EC6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1566D48F282FE1B8000EC6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DC47F28D30702229157333 /* Pods-trivially.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = trivially/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AL-DEV.trivially";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1566D490282FE1B8000EC6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFCBBB1859ED7C6DDF5C14C /* Pods-trivially.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = trivially/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AL-DEV.trivially";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1566D492282FE1B8000EC6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809B59E5E34BADB6D2F0761E /* Pods-triviallyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AL-DEV.triviallyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trivially.app/trivially";
+			};
+			name = Debug;
+		};
+		1566D493282FE1B8000EC6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B944483DC8FB4A8DE720DE /* Pods-triviallyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AL-DEV.triviallyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trivially.app/trivially";
+			};
+			name = Release;
+		};
+		1566D495282FE1B8000EC6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC19EA176AE3A17D992953D4 /* Pods-trivially-triviallyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AL-DEV.triviallyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trivially;
+			};
+			name = Debug;
+		};
+		1566D496282FE1B8000EC6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0569CF74D31D9E9DC5756DB0 /* Pods-trivially-triviallyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AL-DEV.triviallyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trivially;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1566D45F282FE1B5000EC6B4 /* Build configuration list for PBXProject "trivially" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566D48C282FE1B8000EC6B4 /* Debug */,
+				1566D48D282FE1B8000EC6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1566D48E282FE1B8000EC6B4 /* Build configuration list for PBXNativeTarget "trivially" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566D48F282FE1B8000EC6B4 /* Debug */,
+				1566D490282FE1B8000EC6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1566D491282FE1B8000EC6B4 /* Build configuration list for PBXNativeTarget "triviallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566D492282FE1B8000EC6B4 /* Debug */,
+				1566D493282FE1B8000EC6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1566D494282FE1B8000EC6B4 /* Build configuration list for PBXNativeTarget "triviallyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1566D495282FE1B8000EC6B4 /* Debug */,
+				1566D496282FE1B8000EC6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1566D45C282FE1B5000EC6B4 /* Project object */;
+}
