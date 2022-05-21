@@ -4,14 +4,14 @@
 
 ### The Home page: 
 ## Protrait:
-<img src="https://user-images.githubusercontent.com/62396197/169662210-ac5e0ba1-cbd7-4493-b9ee-6faed3fee5c3.png" alt="home-p" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/62396197/169662559-b39d9dd0-a4ef-4c5b-8d96-6fe9cfe006d6.png" alt="home-p" width="200" height="400"/>
 
 ## Landscape: 
-<img src="https://user-images.githubusercontent.com/62396197/169662211-ebaaf9b2-4f8d-499f-9beb-2afb417b0235.png" alt="home-l" width="400" height="200"/>
+<img src="https://user-images.githubusercontent.com/62396197/169662569-f09d8ee1-bec3-4e8b-92a7-1a993af3b206.png" alt="home-l" width="400" height="200"/>
 
 ### The Game:
 ## Protrait:
-<img src="https://user-images.githubusercontent.com/62396197/169662216-0154b8ee-0c6c-4403-b434-786ba13a3fb5.png" alt="game-p" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/62396197/169662580-88a6f8f6-dfbd-4727-b701-22f72d8d0f7b.png" alt="game-p" width="200" height="400"/>
 
 ## Landscape: 
-<img src="https://user-images.githubusercontent.com/62396197/169662214-24c91526-dc14-4ea6-bf81-cae673421d50.png" alt="game-l" width="400" height="200"/>
+<img src="https://user-images.githubusercontent.com/62396197/169662592-ec7c7b67-76bf-48d0-a78a-7570e5e9155b.png" alt="game-l" width="400" height="200"/>
