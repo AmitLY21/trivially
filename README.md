@@ -1,6 +1,8 @@
 # Trivi-ally? 🗺️🗺️
 ## You think you know someplaces around the world? Well let's check this.
 ### Technologies I have used : xcode , Swift , Pods: Kingfisher
+### Fetching a JSON I created and creating Questions Model with it , link to the Json: https://pastebin.com/raw/i7rJY4Lq
+### Currently known issues not being able to dismiss views.
 
 ## The Home page: 
 ### Protrait:
